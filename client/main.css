@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    background: white;
+    color: black;
+    margin: 0;
+}
+
+a {
+    color: #005;
+}
+
+a:visited {
+    color: #505;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    body {
+        background: black;
+        color: white;
+    }
+
+    a {
+        color: #aaf;
+    }
+
+    a:visited {
+        color: #faf;
+    }
+}
+
+@media print {
+    body {
+        background: white !important;
+        color: black !important;
+    }
+}
