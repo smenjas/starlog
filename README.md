@@ -29,3 +29,7 @@ Start the node server with:
 ```sh
 npm run dev
 ```
+Identify syntax and style issues with:
+```sh
+npm run lint
+```

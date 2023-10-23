@@ -1,5 +1,5 @@
 export default class Plot {
-    constructor(settings) {
+    constructor() {
         this.description = 'Stars go here.';
     }
 

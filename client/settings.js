@@ -1,5 +1,5 @@
 export default class Settings {
-    constructor(settings) {
+    constructor() {
         this.description = 'Settings go here.';
     }
 
