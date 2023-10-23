@@ -19,3 +19,13 @@ View stars in 3D.
   - [ ] the Milky Way
   - [ ] the nearest galaxies
   - [ ] galaxy groups
+
+## Development
+Install the dependencies by running:
+```sh
+npm install
+```
+Start the node server with:
+```sh
+npm run dev
+```

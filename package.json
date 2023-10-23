@@ -5,6 +5,7 @@
   "description": "View stars in 3D.",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/smenjas/starlog/issues"
   },
-  "homepage": "https://github.com/smenjas/starlog#readme"
+  "homepage": "https://github.com/smenjas/starlog#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
